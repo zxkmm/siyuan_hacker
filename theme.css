@@ -1,3 +1,40 @@
 :root {
-    --b3-theme-primary: #d23f31;
+    --b3-theme-primary: #22446c;
+}
+
+/* KDE Breeze window control buttons style - Perfectly Square and Consistent */
+#windowControls .toolbar__item {
+    display: flex; /* Flex by default to allow centering SVG */
+    align-items: center !important;
+    justify-content: center !important;
+    width: 32px !important;
+    height: 32px !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    border-radius: 4px !important;
+    transition: background-color 0.2s !important;
+}
+
+/* Let Siyuan's inline display: none take precedence */
+#windowControls .toolbar__item[style*="display: none"] {
+    display: none !important;
+}
+
+/* Ensure the SVG inside is consistently sized and centered */
+#windowControls .toolbar__item svg {
+    width: 14px !important;
+    height: 14px !important;
+    color: currentColor !important;
+    display: block !important;
+}
+
+/* Standard hover for min/max/restore */
+#windowControls .toolbar__item--win:hover {
+    background-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+/* Close button hover - ensuring it matches the area exactly */
+#windowControls .toolbar__item--close:hover {
+    background-color: rgba(232, 17, 35, 0.9) !important;
+    color: white !important;
 }

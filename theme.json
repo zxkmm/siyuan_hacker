@@ -1,16 +1,16 @@
 {
-  "name": "theme-sample",
-  "author": "Vanessa",
-  "url": "https://github.com/siyuan-note/theme-sample",
-  "version": "0.0.3",
+  "name": "siyuan_hacker",
+  "author": "zxkmm",
+  "url": "https://github.com/zxkmm/siyuan_hacker",
+  "version": "0.0.1",
   "minAppVersion": "2.8.8",
   "displayName": {
-    "default": "Theme Sample",
-    "zh_CN": "主题示例"
+    "default": "Hacker",
+    "zh_CN": "黑客"
   },
   "description": {
-    "default": "This is a theme sample",
-    "zh_CN": "这是一个主题示例"
+    "default": "Hacker theme",
+    "zh_CN": "黑客主题"
   },
   "readme": {
     "default": "README.md",
@@ -21,13 +21,16 @@
     "patreon": "",
     "github": "",
     "custom": [
-      "https://ld246.com/sponsor"
+      "https://zxkmm.com/donate"
     ]
   },
   "modes": [
-    "light"
+    "light",
+    "dark"
   ],
   "keywords": [
-    "sample", "示例"
+    "theme",
+    "hacker",
+    "黑客"
   ]
 }
