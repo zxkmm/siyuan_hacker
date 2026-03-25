@@ -9,8 +9,8 @@
     "zh_CN": "黑客"
   },
   "description": {
-    "default": "Hacker theme",
-    "zh_CN": "黑客主题"
+    "default": "A theme intended to provide the best experience on KDE Plasma and other Linux desktop environments, making it as close as original.",
+    "zh_CN": "旨在在 KDE Plasma 和其他 Linux 桌面环境上提供最佳体验，并使其尽可能接近原版的主题。"
   },
   "readme": {
     "default": "README.md",

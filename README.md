@@ -1,13 +1,16 @@
-[中文](https://github.com/siyuan-note/theme-sample/blob/main/README_zh_CN.md)
+# SiYuan Hacker Theme
 
-# SiYuan theme sample
+This plugin is intended to give you the best experience on KDE Plasma and other Linux desktop environments, making it as close to the original as possible.
 
-## Get started
+## License
 
-* Make a copy of this repo as a template with the <kbd>Use this template</kbd> button, please note that the repo name
-  must be the same as the theme name, the default branch must be `main`
-* Clone your repo to a local development folder. For convenience, you can place this folder in
-  your `{workspace}/conf/appearance/themes/` folder
+You are free to use the code in this repository, regardless of whether it's closed source or not, or whether it's part of paid software or not. However, I have incorporated these additional requests into the license of this repository. If you use the code, design, text, algorithms, or anything else from this repository, you must include my username "zxkmm" and the link to this repository in three places:
+
+1. In the code comments.
+2. In the settings interface related to my code.
+3. On the 'About' page of your software/website/and or any other format of computer production.
+
+The underlying base license is the GNU Affero General Public License v3.0, with these additional permissions and requirements.
 
 ## Development
 
